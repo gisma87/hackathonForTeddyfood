@@ -1,0 +1,51 @@
+.HelpIntro {
+  background-color: #da6e41;
+  color: #fff;
+  margin: 50px 0;
+  padding: 50px 0;
+
+  &__wrapper {
+    max-width: 980px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  &__title {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__item {
+    width: 150px;
+    transition: all .3s;
+
+    &:hover {
+      transform: scale(1.1);
+      transition: all .3s;
+    }
+  }
+
+  &__image {
+    width: 150px;
+    height: 150px;
+  }
+
+  &__arrow {
+    width: 88px;
+    height: 12px;
+  }
+
+  &__name {
+    font-size: 16px;
+    text-align: center;
+    text-shadow: 1px 1px 0 #000;
+  }
+}

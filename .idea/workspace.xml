@@ -20,16 +20,139 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02aefc31-70b1-4b00-ac3c-32a38c1339ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/hackathonForTeddyfood.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AppMobile/AppMobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AppMobile/AppMobile.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AppMobile/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MobileOrDesktop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actions/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/BlockWrapper/BlockWrapper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/BlockWrapper/BlockWrapper.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/BlockWrapper/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Card/Card.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Card/Card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderDesktop/HeaderDesktop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderDesktop/HeaderDesktop.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderDesktop/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderFixed/HeaderFixed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderFixed/HeaderFixed.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderFixed/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderTop/HeaderTop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderTop/HeaderTop.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderTop/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HelpIntro/HelpIntro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HelpIntro/HelpIntro.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MobileBottomNavbar/MobileBottomNavbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MobileBottomNavbar/MobileBottomNavbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MobileBottomNavbar/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PopupCities/PopupCities.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PopupCities/PopupCities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PopupCities/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PopupLogin/PopupLogin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PopupLogin/PopupLogin.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PopupLogin/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PopupOrder/PopupOrder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PopupOrder/PopupOrder.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PopupOrder/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/Backdrop/Backdrop.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/Backdrop/Backdrop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/Burger/Burger.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/Burger/Burger.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/ButtonTopScroll/ButtonTopScroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/ButtonTopScroll/ButtonTopScroll.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/ButtonTopScroll/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/CheckboxOrange/CheckboxOrange.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/CheckboxOrange/CheckboxOrange.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/CheckboxOrange/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/Loader/Loader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/Loader/Loader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/Loader/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/PopupWrapper/PopupWrapper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/PopupWrapper/PopupWrapper.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/Select/Select.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/Select/Select.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/icons/SvgAngleUpSolid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/icons/SvgCheck.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/icons/SvgClose.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/icons/SvgHeartActive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/icons/SvgHeartIcon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/icons/SvgIconCart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/icons/SvgIconHome.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/icons/SvgIconLocation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/icons/SvgIconSearch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/icons/SvgIconUser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/AskQuestion/AskQuestion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/AskQuestion/AskQuestion.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/AskQuestion/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Faq/Faq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Faq/Faq.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/IndexDesktop/IndexDesktop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/IndexDesktop/IndexDesktop.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/IndexMobile/IndexMobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/IndexMobile/IndexMobile.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/IndexMobile/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Evolventa Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Evolventa Oblique Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Evolventa Oblique.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Evolventa.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/NotoSansJP-Regular.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Oswald-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/PTSans-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/PTSans-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/image/hashtag-solid.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/image/hashtag-white.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/image/intro-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/image/intro-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/image/intro-3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/image/intro-4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/image/intro-arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/image/vector.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/StoreService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testData/MenuMobile/Menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testData/MenuMobile/Menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testData/Popular/Popular.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testData/Popular/Popular.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testData/Popular/PopularItem/PopularItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testData/Popular/PopularItem/PopularItem.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testData/Popular/PopularItem/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testData/SearchDesktop/SearchDesctop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testData/SearchDesktop/SearchDesktop.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testData/SearchDesktop/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testData/articlesANDpromo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testData/categoriesList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testData/data/alphabet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testData/dataCards.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testData/dataCart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testData/info.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testData/mutationRetails.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testData/points.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testData/response_1602670847336.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/ScrollToTop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/dadata.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="SCSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -46,8 +169,20 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/image" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\repository\hackathonForTeddyfood\src\image" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\repository\hackathonForTeddyfood\public" />
+      <recent name="D:\repository\hackathonForTeddyfood\src\image" />
+      <recent name="D:\repository\hackathonForTeddyfood\src\components\UI\icons" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -57,7 +192,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605971340115</updated>
-      <workItem from="1605971341986" duration="181000" />
+      <workItem from="1605971341986" duration="12256000" />
     </task>
     <servers />
   </component>
@@ -77,5 +212,23 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1897" height="281" key="GridCell.Tab.0.bottom" timestamp="1605971876070">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1897" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605971876070" />
+    <state width="1897" height="281" key="GridCell.Tab.0.center" timestamp="1605971876070">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1897" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605971876070" />
+    <state width="1897" height="281" key="GridCell.Tab.0.left" timestamp="1605971876069">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1897" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605971876069" />
+    <state width="1897" height="281" key="GridCell.Tab.0.right" timestamp="1605971876070">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1897" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605971876070" />
   </component>
 </project>

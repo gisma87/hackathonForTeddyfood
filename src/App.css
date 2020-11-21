@@ -1,0 +1,96 @@
+/*Обнуление*/
+*, *:before, *:after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    text-decoration: none
+}
+
+.wrapper {
+    all: inherit;
+    max-width: 1240px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0 auto;
+    /*max-width: 1440px;*/
+}
+
+@font-face {
+    font-family: 'Oswald-Regular';
+    src: url('./fonts/Oswald-Regular.ttf') format('truetype');
+
+}
+
+@font-face {
+    font-family: 'PTSans-Regular';
+    src: url('./fonts/PTSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PTSans-Bold';
+    src: url('./fonts/PTSans-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NotoSansJP-Regular';
+    src: url('./fonts/NotoSansJP-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'obliq';
+    src: url('./fonts/Evolventa Oblique.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bold';
+    src: url('./fonts/Evolventa Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'obliqblack';
+    src: url('./fonts/Evolventa Oblique Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'regular';
+    src: url('./fonts/Evolventa.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: PTSans-Regular, Helvetica, Arial, sans-serif;
+    background-color: #f6f6f6;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    color: white;
+}
+
+.owerflowHidden {
+    overflow: hidden;
+}
