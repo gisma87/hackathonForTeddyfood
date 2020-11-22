@@ -21,12 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="02aefc31-70b1-4b00-ac3c-32a38c1339ce" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BlockWrapper/BlockWrapper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BlockWrapper/BlockWrapper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Board/Board.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Board/Board.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Board/Board.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Board/Board.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Card/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card/Card.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/IndexDesktop/IndexDesktop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/IndexDesktop/IndexDesktop.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
