@@ -18,9 +18,7 @@ const MobileBottomNavbar = (props) => {
     return localStorage.getItem('isLogin') === 'true'
   }
 
-  const count = props.cart.reduce((sum, item) => {
-    return item.count + sum
-  }, 0)
+  const count = 0
 
   return (
     <div className="MobileBottomNavbar">
@@ -58,13 +56,12 @@ const MobileBottomNavbar = (props) => {
   )
 }
 
-const mapStateToProps = ({cart}) => {
-  return {cart}
+const mapStateToProps = ({}) => {
+  return {}
 }
 
 const mapDispatchToProps = (dispatch) => {
   return {
-    rewriteCart: (item) => dispatch(rewriteCart(item))
   }
 }
 
