@@ -1,7 +1,7 @@
 const initialState = {
   loading: false,
   error: null,
-  info: "1"
+  city: "1"
 }
 
 const reducer = (state = initialState, action) => {
