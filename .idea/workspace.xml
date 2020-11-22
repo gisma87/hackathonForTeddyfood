@@ -20,15 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02aefc31-70b1-4b00-ac3c-32a38c1339ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Board/Board.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Board/Board.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BlockWrapper/BlockWrapper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BlockWrapper/BlockWrapper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Board/Board.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Board/Board.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Board/Board.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Board/Board.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Card/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card/Card.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Card/Card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card/Card.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/IndexDesktop/IndexDesktop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/IndexDesktop/IndexDesktop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/IndexDesktop/IndexDesktop.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/IndexDesktop/IndexDesktop.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,9 +128,9 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1897" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605986490591" />
-    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1606031624944">
+    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1606035476797">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1606031624944" />
+    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1606035476797" />
   </component>
 </project>

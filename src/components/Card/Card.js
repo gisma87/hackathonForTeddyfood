@@ -15,6 +15,36 @@ const Card = (props) => {
     {id: 7, value: 'значение 7'},
     {id: 8, value: 'значение 8'}
   ]
+  const city = [
+    {id: 1, value: 'Москва'},
+    {id: 2, value: 'Санкт-Петербург'},
+    {id: 3, value: 'Казань'},
+    {id: 4, value: 'Екатеринбург'},
+    {id: 5, value: 'Нижний Новгород'},
+    {id: 6, value: 'Владимир'},
+    {id: 7, value: 'Ярославль'},
+    {id: 8, value: 'Сочи'}
+  ]
+  const shelter = [
+    {id: 1, value: 'Лапки'},
+    {id: 2, value: 'Хвостики'},
+    {id: 3, value: 'Верность'},
+    {id: 4, value: 'Ушастики'},
+    {id: 5, value: 'Бим'},
+    {id: 6, value: 'Ника'},
+    {id: 7, value: 'Зов Предков'},
+    {id: 8, value: 'Белый клык'}
+  ]
+  const animals = [
+    {id: 1, value: 'Собаки'},
+    {id: 2, value: 'Кошки'},
+    {id: 3, value: 'Грызуны'},
+    {id: 4, value: 'Ежики'},
+    {id: 5, value: 'Хрюшки'},
+    {id: 6, value: 'Лошадки'},
+    {id: 7, value: 'Кролики'},
+    {id: 8, value: 'Птицы'}
+  ]
 
   const [year, setYear] = useState(2)
 
@@ -39,7 +69,7 @@ const Card = (props) => {
                 value={props.city}
                 onChange={(e) => props.onSelectRetail('city', e.target.value)}
         >
-          {data.map((item) => {
+          {city.map((item) => {
               return (
                 <option key={item.id} value={item.id}>
                   {item.value}
@@ -56,7 +86,7 @@ const Card = (props) => {
                 value={props.checked}
                 onChange={props.onChange}
         >
-          {data.map((item) => {
+          {shelter.map((item) => {
               return (
                 <option key={item.id} value={item.id}>
                   {item.value}
@@ -73,7 +103,7 @@ const Card = (props) => {
                 value={props.checked}
                 onChange={props.onChange}
         >
-          {data.map((item) => {
+          {animals.map((item) => {
               return (
                 <option key={item.id} value={item.id}>
                   {item.value}

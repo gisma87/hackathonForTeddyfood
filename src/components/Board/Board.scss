@@ -4,4 +4,45 @@
   justify-self: flex-end;
   font-size: 20px;
   color: #777;
+
+  &__main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90%;
+  }
+  ol {
+    margin-left: 20px;
+    line-height: 28px;
+  }
+
+  &__paragraph1 {
+    color: red;
+    font-size: 22px;
+  }
+
+  &__paragraph2 {
+    color: green;
+    margin-top: 20px;
+    font-size: 22px;
+  }
+  ul {
+    margin-top: 10px;
+  }
+
+  &__rating {
+    margin: 10px 0;
+    font-weight: bold;
+
+    span {
+      font-weight: normal;
+      width: 100%;
+      display: block;
+      color: #000;
+      margin-left: 10px;
+      line-height: 26px;
+    }
+  }
+
+
 }

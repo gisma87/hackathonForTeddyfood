@@ -9,7 +9,8 @@ import Board from "../../components/Board/Board";
 class IndexDesktop extends React.Component {
 
   state = {
-    formShow: false
+    formShow: false,
+    formShowAlways: true
   }
 
   onSelectHandler = (value) => {
@@ -27,7 +28,7 @@ class IndexDesktop extends React.Component {
             <p>Чтобы увидеть сумму денег, которые собрали эти животные</p>
           </Card>
 
-          { this.state.formShow && <Board/>}
+          {this.state.formShowAlways && <Board/>}
 
         </div>
 
